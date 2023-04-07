@@ -25,5 +25,4 @@ export class LogRecord implements LogEntity {
         return result.length === 0 ? null : result[0]
     }
 
-    //@TODO zmienić typy z any na jakieś normalne!
 }
